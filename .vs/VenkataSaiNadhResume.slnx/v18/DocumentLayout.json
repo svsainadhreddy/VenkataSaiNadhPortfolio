@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\venkatasainadhresume.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:venkatasainadhresume.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\wwwroot\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:wwwroot\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\data\\portfoliodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:data\\portfoliodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\models\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:models\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|c:\\users\\svsai\\source\\repos\\venkatasainadhresume\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{750DECB8-2CAB-48AC-B41D-7660B3206A5C}|VenkataSaiNadhResume.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-05T03:40:44.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-05T03:40:39.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T03:37:47.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile.txt",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Dockerfile.txt",
+              "RelativeDocumentMoniker": "Dockerfile.txt",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Dockerfile.txt",
+              "RelativeToolTip": "Dockerfile.txt",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-05T03:35:27.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VenkataSaiNadhResume",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\VenkataSaiNadhResume.csproj",
+              "RelativeDocumentMoniker": "VenkataSaiNadhResume.csproj",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\VenkataSaiNadhResume.csproj",
+              "RelativeToolTip": "VenkataSaiNadhResume.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-03T13:04:43.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAANcBAAAAAAAAAAAmwOoBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T12:08:46.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwFAAAAAAAAAAAQwCoFAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-03T12:18:48.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-03T12:16:55.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwF0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T12:16:53.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\.gitignore",
+              "RelativeDocumentMoniker": "wwwroot\\.gitignore",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\.gitignore",
+              "RelativeToolTip": "wwwroot\\.gitignore",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-03T12:42:50.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Views\\Projects\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwHAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T13:07:41.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Projects\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Projects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\Projects\\Details.cshtml",
+              "RelativeToolTip": "Views\\Projects\\Details.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAAAmwO8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T13:07:53.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:06:35.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PortfolioData.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Data\\PortfolioData.cs",
+              "RelativeDocumentMoniker": "Data\\PortfolioData.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Data\\PortfolioData.cs",
+              "RelativeToolTip": "Data\\PortfolioData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:05:19.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAmwPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:53:20.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:52:15.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:49:26.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:52:41.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Education.cs",
+              "RelativeDocumentMoniker": "Models\\Education.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Education.cs",
+              "RelativeToolTip": "Models\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:51:32.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Certification.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Certification.cs",
+              "RelativeDocumentMoniker": "Models\\Certification.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Certification.cs",
+              "RelativeToolTip": "Models\\Certification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:51:47.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Models\\Skill.cs",
+              "RelativeToolTip": "Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:50:56.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-03T12:19:21.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T12:08:36.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\svsai\\source\\repos\\VenkataSaiNadhResume\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T12:08:29.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

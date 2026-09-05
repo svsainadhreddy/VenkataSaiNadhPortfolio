@@ -1,0 +1,240 @@
+﻿@model VenkataSaiNadhResume.Models.Project
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+
+<section class="project-details-section">
+
+    <div class="container">
+
+
+        <!-- BACK -->
+
+        <a asp-controller="Projects"
+           asp-action="Index"
+           class="back-link">
+
+            <i class="bi bi-arrow-left"></i>
+
+            Back to Projects
+
+        </a>
+
+
+        <!-- HEADER -->
+
+        <div class="project-details-header">
+
+
+            <div class="project-details-category">
+
+                @Model.Category
+
+            </div>
+
+
+            <h1>
+
+                @Model.Title
+
+            </h1>
+
+
+            <p>
+
+                @Model.Description
+
+            </p>
+
+
+            <div class="project-details-actions">
+
+
+                @if (!string.IsNullOrWhiteSpace(Model.GithubUrl)
+                     && Model.GithubUrl != "#")
+                {
+
+                    <a href="@Model.GithubUrl"
+                       target="_blank"
+                       class="primary-button">
+
+                        <i class="bi bi-github"></i>
+
+                        View on GitHub
+
+                    </a>
+
+                }
+
+
+                @if (!string.IsNullOrWhiteSpace(Model.DemoUrl)
+                     && Model.DemoUrl != "#")
+                {
+
+                    <a href="@Model.DemoUrl"
+                       target="_blank"
+                       class="secondary-button">
+
+                        <i class="bi bi-box-arrow-up-right"></i>
+
+                        Live Demo
+
+                    </a>
+
+                }
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT VISUAL -->
+
+        <div class="project-details-visual">
+
+            <i class="bi @Model.Icon"></i>
+
+        </div>
+
+
+        <!-- PROJECT INFORMATION -->
+
+        <div class="row g-5 project-information">
+
+
+            <!-- LEFT -->
+
+            <div class="col-lg-7">
+
+
+                <div class="details-block">
+
+                    <span class="details-label">
+                        ABOUT THE PROJECT
+                    </span>
+
+
+                    <h2>
+                        Overview
+                    </h2>
+
+
+                    <p>
+                        @Model.LongDescription
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURES -->
+
+                <div class="details-block">
+
+                    <span class="details-label">
+                        KEY FEATURES
+                    </span>
+
+
+                    <h2>
+                        What it does
+                    </h2>
+
+
+                    <ul class="feature-list">
+
+                        @foreach (var feature in Model.Features)
+                        {
+                            <li>
+
+                                <i class="bi bi-check2"></i>
+
+                                <span>
+                                    @feature
+                                </span>
+
+                            </li>
+                        }
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- RIGHT -->
+
+            <div class="col-lg-5">
+
+
+                <div class="technology-panel">
+
+                    <span class="details-label">
+                        TECHNOLOGIES
+                    </span>
+
+
+                    <h2>
+                        Built with
+                    </h2>
+
+
+                    <div class="technology-list">
+
+                        @foreach (var technology in Model.Technologies)
+                        {
+                            <div class="technology-item">
+
+                                <i class="bi bi-check-circle"></i>
+
+                                @technology
+
+                            </div>
+                        }
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- BOTTOM CTA -->
+
+        <div class="project-bottom-cta">
+
+            <h2>
+                Interested in this project?
+            </h2>
+
+
+            <p>
+                Feel free to explore the source code or
+                get in touch with me.
+            </p>
+
+
+            <a asp-controller="Home"
+               asp-action="Index"
+               asp-fragment="contact"
+               class="primary-button">
+
+                Let's Connect
+
+                <i class="bi bi-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>

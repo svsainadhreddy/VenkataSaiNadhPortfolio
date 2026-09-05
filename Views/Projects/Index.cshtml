@@ -1,0 +1,113 @@
+﻿@model List<VenkataSaiNadhResume.Models.Project>
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+
+<section class="section projects-page">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                PROJECTS
+            </span>
+
+            <h1>
+                Things I've
+                <span>built.</span>
+            </h1>
+
+            <p class="page-intro">
+                A selection of projects demonstrating my
+                experience with web development, Machine Learning
+                and mobile application development.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+            @foreach (var project in Model)
+            {
+
+                <article class="project-card">
+
+
+                    <div class="project-image">
+
+                        <div class="project-number">
+
+                            @project.Id.ToString("00")
+
+                        </div>
+
+
+                        <i class="bi @project.Icon project-big-icon"></i>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+
+                        <div class="project-top">
+
+                            <span>
+                                @project.Category
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            @project.Title
+                        </h3>
+
+
+                        <p>
+                            @project.Description
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            @foreach (var technology in project.Technologies)
+                            {
+                                <span>
+                                    @technology
+                                </span>
+                            }
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a asp-controller="Projects"
+                               asp-action="Details"
+                               asp-route-id="@project.Id"
+                               class="project-view-button">
+
+                                View Project
+
+                                <i class="bi bi-arrow-up-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            }
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,765 @@
+﻿@model VenkataSaiNadhResume.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- HERO CONTENT -->
+
+            <div class="col-lg-7">
+
+                <div class="availability-badge">
+
+                    <span class="status-dot"></span>
+
+                    Available for opportunities
+
+                </div>
+
+
+                <p class="hero-small-title">
+                    HELLO, I'M
+                </p>
+
+
+                <h1>
+
+                    Venkata
+
+                    <span>
+                        Sai Nadh
+                    </span>
+
+                </h1>
+
+
+                <h2>
+
+                    @Model.Role
+
+                    <span>•</span>
+
+                    Python
+
+                    <span>•</span>
+
+                    Machine Learning
+
+                </h2>
+
+
+                <p class="hero-description">
+
+                    @Model.Description
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                       class="primary-button">
+
+                        View My Work
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </a>
+
+
+                    <a href="#contact"
+                       class="secondary-button">
+
+                        Let's Connect
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="hero-tech">
+
+                    <span>
+                        Currently working with
+                    </span>
+
+
+                    <div>
+
+                        @foreach (var technology in Model.PrimaryTechnologies)
+                        {
+                            <b>
+                                @technology
+                            </b>
+                        }
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="col-lg-5">
+
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+
+                    <div class="profile-frame">
+
+                        <img src="~/images/profile.jpeg"
+                             alt="@Model.Name"
+                             class="profile-image" />
+
+                    </div>
+
+
+                    <div class="floating-card card-one">
+
+                        <i class="bi bi-code-slash"></i>
+
+                        <div>
+
+                            <strong>
+                                ASP.NET Core
+                            </strong>
+
+                            <small>
+                                Web Development
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-two">
+
+                        <i class="bi bi-database"></i>
+
+                        <div>
+
+                            <strong>
+                                SQL Server
+                            </strong>
+
+                            <small>
+                                Database
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about"
+         class="section about-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                01 / ABOUT
+            </span>
+
+
+            <h2>
+
+                Turning ideas into
+
+                <span>
+                    working software.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="row g-5">
+
+            <div class="col-lg-7">
+
+                <p class="large-text">
+
+                    I'm a Computer Science graduate with a strong
+                    foundation in software development and a passion
+                    for learning modern technologies.
+
+                </p>
+
+
+                <p>
+
+                    My primary focus is backend and full-stack
+                    development using C#, ASP.NET Core MVC,
+                    Entity Framework Core and SQL Server.
+
+                </p>
+
+
+                <p>
+
+                    I also work with Python and Machine Learning,
+                    and enjoy building practical applications while
+                    continuously improving my development skills.
+
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-5">
+
+                <div class="about-stats">
+
+
+                    <div class="stat">
+
+                        <strong>
+                            @Model.Projects.Count.ToString("00")
+                        </strong>
+
+                        <span>
+                            Featured Projects
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>
+                            C#
+                        </strong>
+
+                        <span>
+                            Primary Development
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>
+                            2026
+                        </strong>
+
+                        <span>
+                            B.Tech CSE
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills"
+         class="section skills-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                02 / SKILLS
+            </span>
+
+
+            <h2>
+
+                Technologies I
+
+                <span>
+                    work with.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            @foreach (var skill in Model.Skills)
+            {
+
+                <div class="skill-card">
+
+
+                    <div class="skill-icon">
+
+                        <i class="bi @skill.Icon"></i>
+
+                    </div>
+
+
+                    <h3>
+                        @skill.Title
+                    </h3>
+
+
+                    <p>
+                        @skill.Description
+                    </p>
+
+
+                    <div class="skill-tags">
+
+                        @foreach (var technology in skill.Technologies)
+                        {
+                            <span>
+                                @technology
+                            </span>
+                        }
+
+                    </div>
+
+
+                </div>
+
+            }
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section id="projects"
+         class="section projects-section">
+
+    <div class="container">
+
+        <div class="section-heading project-heading">
+
+            <div>
+
+                <span>
+                    03 / PROJECTS
+                </span>
+
+
+                <h2>
+
+                    Things I've
+
+                    <span>
+                        built.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <a href="#contact"
+               class="text-link">
+
+                Have a project?
+
+                <i class="bi bi-arrow-up-right"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            @foreach (var project in Model.Projects)
+            {
+
+                <article class="project-card
+                    @(project.IsFeatured ? "featured-project" : "")">
+
+
+                    <!-- PROJECT IMAGE -->
+
+                    <div class="project-image">
+
+                        <div class="project-number">
+
+                            @project.Id.ToString("00")
+
+                        </div>
+
+
+                        <i class="bi @project.Icon project-big-icon"></i>
+
+                    </div>
+
+
+                    <!-- PROJECT CONTENT -->
+
+                    <div class="project-content">
+
+
+                        <div class="project-top">
+
+                            <span>
+                                @project.Category
+                            </span>
+
+
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </div>
+
+
+                        <h3>
+                            @project.Title
+                        </h3>
+
+
+                        <p>
+                            @project.Description
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            @foreach (var technology in project.Technologies)
+                            {
+                                <span>
+                                    @technology
+                                </span>
+                            }
+
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a asp-controller="Projects"
+                               asp-action="Details"
+                               asp-route-id="@project.Id"
+                               class="project-view-button">
+
+                                View Project
+
+                                <i class="bi bi-arrow-up-right"></i>
+
+                            </a>
+
+                        </div>
+
+                        <!-- GITHUB -->
+                        @if (!string.IsNullOrWhiteSpace(project.GithubUrl)
+                                                     && project.GithubUrl != "#")
+                        {
+
+                            <div class="project-links">
+
+                                <a href="@project.GithubUrl"
+                                   target="_blank">
+
+                                    <i class="bi bi-github"></i>
+
+                                    GitHub
+
+                                </a>
+
+                            </div>
+
+                        }
+
+
+                    </div>
+
+                </article>
+
+            }
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<section id="education"
+         class="section education-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                04 / EDUCATION
+            </span>
+
+
+            <h2>
+
+                My academic
+
+                <span>
+                    journey.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            @foreach (var education in Model.Education)
+            {
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-year">
+
+                        @education.Year
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+
+                            @education.Degree
+
+                        </h3>
+
+
+                        <p>
+
+                            @education.Institution
+
+                        </p>
+
+
+                        @if (!string.IsNullOrWhiteSpace(education.Grade))
+                        {
+                            <strong>
+
+                                Grade:
+                                @education.Grade
+
+                            </strong>
+                        }
+
+                    </div>
+
+
+                </div>
+
+            }
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CERTIFICATIONS
+========================================================= -->
+
+<section class="section certifications-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                05 / CERTIFICATIONS
+            </span>
+
+
+            <h2>
+
+                Learning beyond
+
+                <span>
+                    the classroom.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="cert-grid">
+
+
+            @foreach (var certification in Model.Certifications)
+            {
+
+                <div class="cert-card">
+
+
+                    <i class="bi @certification.Icon"></i>
+
+
+                    <div>
+
+                        <h3>
+                            @certification.Title
+                        </h3>
+
+
+                        <p>
+                            @certification.Issuer
+                        </p>
+
+
+                        <p>
+                            @certification.Description
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            }
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact"
+         class="section contact-section">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+
+            <span>
+                06 / CONTACT
+            </span>
+
+
+            <h2>
+
+                Let's build something
+
+                <span>
+                    useful together.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                I'm currently looking for entry-level
+                opportunities where I can contribute,
+                learn and grow as a software developer.
+
+            </p>
+
+
+            <div class="contact-actions">
+
+
+                <a href="mailto:@Model.Email"
+                   class="primary-button">
+
+                    <i class="bi bi-envelope"></i>
+
+                    Send me an email
+
+                </a>
+
+
+                <a href="@Model.LinkedInUrl"
+                   target="_blank"
+                   class="secondary-button">
+
+                    <i class="bi bi-linkedin"></i>
+
+                    LinkedIn
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
